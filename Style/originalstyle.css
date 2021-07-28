@@ -1,0 +1,100 @@
+/*
+   Nice Day For You
+   Day =>7-25-2021 10:48 Am 
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+body {
+    background-image: url('../Images/wave.svg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/*******Start Container**********/
+.container {
+    width: 25%;
+    height: 50%;
+    margin: 18% auto;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 40% 20%;
+}
+
+.sec_head {
+    background-image: url("../Images/bg-pattern-card.svg");
+    background-size: cover;
+
+}
+
+.sec_body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 25% 25%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #F6F6F6;
+}
+
+.sec_body img {
+    border-radius: 50%;
+    position: absolute;
+    left: 33%;
+    top: 32%;
+    object-fit: cover;
+   cursor: pointer;
+}
+
+.sec_body div:first-of-type {
+    position: relative;
+    top:5rem;
+    text-align: center;
+}
+
+.sec_body div:first-of-type h4,
+.sec_body div:first-of-type p {
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+.sec_body div:first-of-type h4 span {
+    font-weight: 300;
+}
+.sec_foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sec_foot div{
+    text-align: center;
+}
+.sec_foot div p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.sec_foot div p:first-of-type{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.sec_foot div p:nth-of-type(2){
+    opacity: .8;
+    font-size: .7rem;
+}
+
+
+
+
+

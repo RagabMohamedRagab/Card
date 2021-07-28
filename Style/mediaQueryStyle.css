@@ -1,0 +1,95 @@
+/*
+*********Media Query To Create Responsive Site*****
+*/
+@media (min-width:300px) and (max-width:700px) {
+    .container {
+        width: 40%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 40% 20%;
+    }
+}
+
+@media (min-width:700px) and (max-width:942px) {
+    .sec_body img {
+        width: 40%;
+    }
+
+    .sec_foot div p:first-of-type {
+        font-size: 1rem;
+    }
+
+    .sec_foot div p:nth-of-type(2) {
+        font-size: .7rem;
+    }
+
+    .sec_body div:first-of-type h4 {
+        font-size: .9rem;
+    }
+
+    .sec_body div:first-of-type {
+        font-size: .8rem;
+    }
+}
+
+@media (min-width:300px) and (max-width:699px) {
+    .container {
+        width: 60%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 40% 20%;
+    }
+
+    .sec_body img {
+        width: 28%;
+        position: absolute;
+        left: 36%;
+    }
+
+    .sec_body div:first-of-type {
+        position: relative;
+        top: 5rem;
+    }
+
+    .sec_foot div p:first-of-type {
+        font-size: .9rem;
+    }
+
+    .sec_foot div p:nth-of-type(2) {
+        font-size: .5665rem;
+        opacity: 0.8;
+    }
+
+    .sec_body div:first-of-type h4,
+    .sec_body div:first-of-type p {
+        font-size: .8rem;
+    }
+}
+
+@media (min-width:200px) and (max-width:300px) {
+    .container {
+        width: 67%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 40% 20%;
+    }
+
+    .sec_body img {
+        width: 36%
+    }
+
+    .sec_body div:first-of-type h1,
+    .sec_body div:first-of-type p {
+        font-size: 0.9rem;
+    }
+
+    .sec_foot div p:first-of-type {
+        font-weight: bold;
+        font-size: .9rem;
+    }
+
+    .sec_foot div p:nth-of-type(2) {
+        opacity: .8;
+        font-size: .6rem;
+    }
+}
